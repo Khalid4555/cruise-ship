@@ -3,6 +3,10 @@ class Ship {
     this.passengers = 0;
     this.startingPort = startingPort;
   }
+
+  setSail() {
+    this.startingPort = false;
+  }
 }
 
 module.exports = Ship;
